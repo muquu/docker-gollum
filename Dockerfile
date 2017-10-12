@@ -5,5 +5,5 @@ RUN gem install github-linguist
 RUN gem install gollum
 RUN gem install org-ruby  # optional
 WORKDIR /wiki
-ENTRYPOINT ["gollum", "--port", "80", "--live-preview", "--bare", "--emoji"]
+ENTRYPOINT ["gollum", "--port", "80", "--bare", "--emoji"]
 EXPOSE 80
